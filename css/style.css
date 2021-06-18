@@ -1,0 +1,289 @@
+/* body {
+    background-color: navy;
+} */
+
+a {
+    display: inline-block;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+
+h1{
+    font-family: 'Sacramento', serif;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    margin: 50px auto 0px auto;    
+}
+
+h2 {
+    font-family: 'Montserrat', serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    list-style: 2;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-family: 'Montserrat', serif;
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+
+.titulo{
+    color: #66BFBF;
+    margin-top: 0;
+    padding-top: 50px;
+    font-size: 4.5rem;
+}
+
+#title .row {
+    margin-top: 0;
+}
+
+.top-box {
+    background-color: #E4F9F5;
+    padding-top: 4rem 0;
+}
+
+.nav-custom {
+    padding: 1rem 1rem;
+    background-color: #E4F9F5;
+}
+
+.mountain {
+    width: 60%;
+    height: 99%;
+}
+
+.middle-container {
+    padding: 3% 15% 7%;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 115px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.text {
+    width: 30%;
+    margin: auto;
+}
+
+.subtitulo {
+    width: 40%;  
+    margin: auto;
+    padding: 1rem 0;
+}
+
+@media (max-width: 992px){
+    .text {
+        width: 50%;
+        margin: auto;
+    }
+
+    .subtitulo {
+        width: 60%;   
+    }
+}
+
+@media (max-width: 768px){
+    .text {
+        width: 70%;
+        margin: auto;
+    }
+
+    .subtitulo {
+        width: 80%;   
+    }
+}
+
+.cloud {
+    margin: 1rem 3rem;
+    position: relative;
+    width: 40%;
+    height: 40%;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 115px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill {
+    margin: 3rem 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.icon {
+    color: #fff;
+    padding-top: 0.7rem;
+}
+
+.icon-bkgd {
+    margin: auto;
+    width: 8rem;
+    height: 8.4rem;
+    background-color: #11999E;
+    border-radius: 10%;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.team-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.erick {
+    width: 8rem; 
+    height: 8rem;
+    margin-bottom: 2rem;
+ }
+
+ .project-img {
+    padding:1rem;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1%;
+    height: auto;
+    width: auto;
+    background-color: #E4F9F5;
+}
+
+.img-overlay {
+    padding:0rem;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1%;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+ /* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    top: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+    right: 0rem;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+  
+/* When you mouse over the container, fade in the overlay title */
+.img-overlay:hover .overlay {
+    opacity: 1;
+}
+
+.text-overlay {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.footer-link {
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+ .btn {
+    background: #14C5CB;
+    background-image: -webkit-linear-gradient(top, #14C5CB, #11999E);
+    background-image: -moz-linear-gradient(top, #14C5CB, #11999E);
+    background-image: -ms-linear-gradient(top, #14C5CB, #11999E);
+    background-image: -o-linear-gradient(top, #14C5CB, #11999E);
+    background-image: -webkit-gradient(to bottom, #14C5CB, #11999E);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 10px 30px;
+    border: solid #11999E 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 30px auto;
+ }
+ 
+ .btn:hover {
+    border: solid #11999E 1px;
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #14C5CB);
+    background-image: -moz-linear-gradient(top, #11999E, #14C5CB);
+    background-image: -ms-linear-gradient(top, #11999E, #14C5CB);
+    background-image: -o-linear-gradient(top, #11999E, #14C5CB);
+    background-image: -webkit-gradient(to bottom, #11999E, #14C5CB);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: .3rem;
+    text-decoration: none;
+ }
+
+.foot-page {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    margin-top: 10px;
+}
+
+.contact-me {
+    width: 30%;
+    margin: auto;
+}
+
